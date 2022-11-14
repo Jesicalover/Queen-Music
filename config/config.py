@@ -24,10 +24,10 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "MARK MUSIC")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Moon MUSIC")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "2030475041").split())
+    map(int, getenv("OWNER_ID", "5722601919").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -36,16 +36,16 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-     "https://github.com/Marrk-85/MarkMusic",
+     "https://github.com/LaKsH-X/LakshyaMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/marrkmusic")
+    "SUPPORT_CHANNEL", "https://t.me/TCR_GROUPS")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/craxymarrk")
+    "SUPPORT_GROUP", "https://t.me/xSupport_ies")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
@@ -103,11 +103,11 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/e5a2ec72b3297955265cd.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/ded640cc97e4d4c37cda0.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/d0e94b4dfc777b4c5d672.jpg",
+    "https://te.legra.ph/file/ded640cc97e4d4c37cda0.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
