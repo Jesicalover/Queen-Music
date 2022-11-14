@@ -63,7 +63,7 @@ async def init():
     except:
         pass
     await MARK.decorators()
-    LOGGER("MARKX").info("Music Bot Started Successfully, Now Give your girlfriend chumt to @Official_Lakshya")
+    LOGGER("MARKX").info("Music Bot Started Successfully, Now Give your girlfriend chumt to @OpSangram")
     await idle()
 
 
