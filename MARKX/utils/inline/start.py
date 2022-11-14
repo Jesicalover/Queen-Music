@@ -46,7 +46,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(
                 text="•ʜᴇʟᴩ•", callback_data="settings_back_helper"
             ),
-            InlineKeyboardButton(text="•ᴅᴇᴠᴇʟᴏᴘᴇʀ•", url=f"https://t.me/marrk_85"),
+            InlineKeyboardButton(text="•ᴅᴇᴠᴇʟᴏᴘᴇʀ•", url=f"https://t.me/wtf_scary_bot"),
         ],
         [ 
             InlineKeyboardButton(text="•ᴄʜᴀɴɴᴇʟ•", url=f"{config.SUPPORT_CHANNEL}"),
