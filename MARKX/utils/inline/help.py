@@ -26,61 +26,61 @@ def help_pannel(_, START: Union[bool, int] = None):
         [
             [
                 InlineKeyboardButton(
-                    text="✧ ᴀᴅᴍɪɴ ✧",
+                    text="💖 𝗔𝗱𝗺𝗶𝗻 💖",
                     callback_data="help_callback hb1",
                 ),
                 InlineKeyboardButton(
-                    text="✧ ᴀᴜᴛʜ ✧",
+                    text="💖 𝗔𝘂𝘁𝗵 💖",
                     callback_data="help_callback hb2",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="✧ ʙʟᴀᴄᴋʟɪsᴛ ✧",
+                    text="💖 𝗕𝗹𝗮𝗰𝗸𝗹𝗶𝘀𝘁 💖",
                     callback_data="help_callback hb3",
                 ),
                 InlineKeyboardButton(
-                    text="✧ ʙʀᴏᴀᴅᴄᴀsᴛ ✧",
+                    text="💖 Broadcast 💖",
                     callback_data="help_callback hb4",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="✧ ɢʙᴀɴ ✧",
+                    text="💖 𝗚𝗯𝗮𝗻 💖",
                     callback_data="help_callback hb12",
                 ),
                 InlineKeyboardButton(
-                    text="✧ ʟʏʀɪᴄs ✧",
+                    text="💖 𝗟𝘆𝗿𝗶𝗰𝘀 💖",
                     callback_data="help_callback hb5",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="✧ ᴩɪɴɢ ✧",
+                    text="💖 𝗽𝗶𝗻𝗴 💖",
                     callback_data="help_callback hb7",
                 ),
                 InlineKeyboardButton(
-                    text="✧ ᴩʟᴀʏ ✧",
+                    text="💖 𝗣𝗹𝗮𝘆 💖",
                     callback_data="help_callback hb8",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="✧ ᴩʟᴀʏʟɪsᴛ ✧",
+                    text="💖 𝗣𝗹𝗮𝘆𝗹𝗶𝘀𝘁 💖",
                     callback_data="help_callback hb6",
                 ),
                 InlineKeyboardButton(
-                    text="✧ ᴠɪᴅᴇᴏᴄʜᴀᴛs ✧",
+                    text="💖 𝗩𝗶𝗱𝗲𝗼𝗰𝗵𝗮𝘁𝘀💖",
                     callback_data="help_callback hb10",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="✧ sᴛᴀʀᴛ ✧",
+                    text="💖 𝗦𝘁𝗮𝗿𝘁 💖",
                     callback_data="help_callback hb11",
                 ),
                 InlineKeyboardButton(
-                    text="✧ sᴜᴅᴏ ✧",
+                    text="💖 Sudo 💖",
                     callback_data="help_callback hb9",
                 ),
             ],
