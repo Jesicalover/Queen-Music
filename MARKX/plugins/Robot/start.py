@@ -39,7 +39,7 @@ async def start_comm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            await message.reply_sticker("CAACAgUAAxkBAAEk5-5jW_0WdEndb005A8-Vn83RymgxiQACEwsAAkdH2Va3GxNSGDd_7SoE")
+            await message.reply_sticker("CAACAgEAAx0CYI0AAQEAAkaHY3H6OXSkGcgFtYK9QM3RZCHhueMAAusDAAJjRnBHGBV-f-ragZ4eBA")
             return await message.reply_photo(
                        photo=config.START_IMG_URL,
                        caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard
@@ -84,7 +84,7 @@ async def start_comm(client, message: Message, _):
                     details = stats.get(vidid)
                     title = (details["title"][:35]).title()
                     if vidid == "telegram":
-                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/CRAXYMARRK) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/xSupport_ies) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
                     else:
                         msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid}) ** played {count} times**\n\n"
                 msg = _["ustats_2"].format(tot, tota, limit) + msg
@@ -159,7 +159,7 @@ async def start_comm(client, message: Message, _):
                             text=" ʏᴏᴜᴛᴜʙᴇ ", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text=" sᴜᴩᴩᴏʀᴛ ", url="https://t.me/CRAXYMARRK"
+                            text=" sᴜᴩᴩᴏʀᴛ ", url="https://t.me/xSupport_ies"
                         ),
                     ],
                 ]
@@ -188,7 +188,7 @@ async def start_comm(client, message: Message, _):
         out = private_panel(_, app.username, OWNER)
         if config.START_IMG_URL:
             try:
-                await message.reply_sticker("CAACAgUAAxkBAAEk6DhjW_5HQZMtpPPJR3okuln6fjdshAAC5QYAAhDd0FZyVs5e_y9pyCoE")
+                await message.reply_sticker("CAACAgEAAx0CYI0AAQEAAkaHY3H6OXSkGcgFtYK9QM3RZCHhueMAAusDAAJjRnBHGBV-f-ragZ4eBA")
                 await message.reply_photo(
                     photo=config.START_IMG_URL,
                     caption=_["start_2"].format(
