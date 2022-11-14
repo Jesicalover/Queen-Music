@@ -7,15 +7,15 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "23315924"))
+API_ID = int(getenv("API_ID", "11031577"))
 API_HASH = getenv("API_HASH")
 
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://lakshya:lakshya@cluster0.lgv5pyy.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Sangram:Sangrambabu@sangram.xaalwsj.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "90")
+    getenv("DURATION_LIMIT", "900")
 )
 
 SONG_DOWNLOAD_DURATION = int(
@@ -103,11 +103,11 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/ded640cc97e4d4c37cda0.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/7c2b7260464aa406dfe71.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/ded640cc97e4d4c37cda0.jpg",
+    "https://telegra.ph/file/7c2b7260464aa406dfe71.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
